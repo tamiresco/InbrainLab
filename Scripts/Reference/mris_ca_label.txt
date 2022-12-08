@@ -1,0 +1,17 @@
+mris_ca_label \
+        -sdir /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/ \
+        A00008399 \
+        lh \
+        sphere.reg \
+        /home/brunovieira/lh.atlas.gcs \
+        /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/A00008326/label/lh.EcoCT.annot
+        
+mris_ca_label \
+        -sdir /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/ \
+        fsaverage \
+        rh \
+        sphere.reg \
+        /home/brunovieira/Tamires_Experiments/Bases_de_Dados/AtlasCollection/Economo/rh.atlas.gcs \
+        /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/fsaverage/label/rh.Eco.annot
+
+ 

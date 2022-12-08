@@ -1,0 +1,11 @@
+#!/bin/bash -> inicio de arquivos bash
+
+sbatch /home/brunovieira/Tamires_Experiments/Scripts/slurm_ml.sh -> rodar um arquivo slurm
+
+squeue -> ver jobs do slurm
+
+sacct -j <numero do job> --format=Elapsed -> quanto tempo demorou rodar um job
+
+sacct -j <664398> --format=Elapsed
+
+chmod +x nome_arquivo -> permitir um script
