@@ -1,0 +1,1 @@
+mris_inflate -rusage /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/A00073545/touch/rusage.mris_inflate.lh.dat ../surf/lh.smoothwm ../surf/lh.inflated

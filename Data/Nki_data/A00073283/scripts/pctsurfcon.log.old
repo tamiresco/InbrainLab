@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Sun Feb 20 21:02:55 -03 2022
+setenv SUBJECTS_DIR /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data
+cd /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/A00073283/scripts
+/home/brunovieira/freesurfer/bin/pctsurfcon
+$Id: pctsurfcon,v 1.15 2016/02/12 21:43:15 zkaufman Exp $
+Linux c08 3.10.0-1160.41.1.el7.x86_64 #1 SMP Tue Aug 31 14:52:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /home/brunovieira/freesurfer
+Cleaning up
