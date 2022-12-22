@@ -1,0 +1,1 @@
+mri_convert /home/brunovieira/freesurfer/nki_data/A00008326/mri/rawavg.mgz /home/brunovieira/freesurfer/nki_data/A00008326/mri/orig.mgz --conform

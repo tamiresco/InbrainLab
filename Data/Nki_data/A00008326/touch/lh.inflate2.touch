@@ -1,0 +1,1 @@
+mris_inflate -rusage /home/brunovieira/freesurfer/nki_data/A00008326/touch/rusage.mris_inflate.lh.dat ../surf/lh.smoothwm ../surf/lh.inflated

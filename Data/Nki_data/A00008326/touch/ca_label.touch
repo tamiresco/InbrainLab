@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /home/brunovieira/freesurfer/nki_data/A00008326/mri/transforms/cc_up.lta A00008326

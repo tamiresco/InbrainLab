@@ -1,0 +1,39 @@
+0,unknown,unknown,unknown,0
+1,bankssts,Bankssts,Temporal,6
+2,caudalanteriorcingulate,Caudal Anterior Cingulate,Frontal,1
+3,caudalmiddlefrontal,Caudal Middle Frontal,Frontal,1
+4,corpuscallosum,Corpus Callosum,unknown,0
+5,cuneus,Cuneus,Occipital,4
+6,entorhinal,Entorhinal,Temporal,6
+7,fusiform,Fusiform,Temporal,6
+8,inferiorparietal,Inferior Parietal,Parietal,5
+9,inferiortemporal,Inferior Temporal,Temporal,6
+10,isthmuscingulate,Isthmus Cingulate,Parietal,5
+11,lateraloccipital,Lateral Occipital,Occipital,4
+12,lateralorbitofrontal,Lateral Orbito Frontal,Frontal,1
+13,lingual,Lingual,Occipital,4
+14,medialorbitofrontal,Medial Orbito Frontal,Frontal,1
+15,middletemporal,Middle Temporal,Temporal,6
+16,parahippocampal,Parahippocampal,Temporal,6
+17,paracentral,Paracentral,Frontal,1
+18,parsopercularis,Parsopercularis,Frontal,1
+19,parsorbitalis,Parsorbitalis,Frontal,1
+20,parstriangularis,Parstriangularis,Frontal,1
+21,pericalcarine,Pericalcarine,Occipital,4
+22,postcentral,Postcentral,Parietal,5
+23,posteriorcingulate,Posterior Cingulate,Parietal,5
+24,precentral,Precentral,Frontal,1
+25,precuneus,Precuneus,Parietal,5
+26,rostralanteriorcingulate,Rostral Anterior Cingulate,Frontal,1
+27,rostralmiddlefrontal,Rostral Middle Frontal,Frontal,1
+28,superiorfrontal,Superior Frontal,Frontal,1
+29,superiorparietal,Superior Parietal,Parietal,5
+30,superiortemporal,Superior Temporal,Temporal,6
+31,supramarginal,Supramarginal,Parietal,5
+32,frontalpole,Frontal Pole,Frontal,1
+33,temporalpole,Temporal Pole,Temporal,6
+34,transversetemporal,Transverse Temporal,Temporal,6
+35,insula,Insula,Insular,2
+,,,,
+,,,,
+"For each short region name, the first letter indicates the cerebral lobe the region belongs to (F-frontal, H-hippocampal, I-insular, L-limbic, O-occipital, P-parietal, T-temporal).",,,,

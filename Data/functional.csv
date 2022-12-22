@@ -1,0 +1,211 @@
+Modified cyto-architectonic;Lobe;Gyrus;Hemisphere;ID;Action.Execution.Other (8518);Action.Execution.Speech (3399);Action.Imagination (1244);Action.Inhibition (2519);Action.Rest (1611);Action.Observation (972);Action.Motor.Learning (832);Action.Preparation (346);Action.Other (11);Cognition  (61,783);Cognition.Attention (10,995);Cognition.Language.Orthography (2011);Cognition.Language.Other (1204);Cognition.Language.Phonology (1621);Cognition.Language.Semantics (7593);Cognition.Language.Speech (7244);Cognition.Language.Syntax (655);Cognition.Memory.Explicit (7002);Cognition.Memory.Other (50);Cognition.Memory.Working (7819);Cognition.Music (822);Cognition.Other (8847);Cognition.Reasoning (1387);Cognition.Social (1562);Cognition.Soma (581);Cognition.Space (1935);Cognition.Time (495);Emotion (18,442);Emotion.Anger (507);Emotion.Anxiety (577);Emotion.Disgust (879);Emotion.Fear (1311);Emotion.Happiness.Humor (120);Emotion.Happiness (1060);Emotion.Other (12,821);Emotion.Sadness (1167);Interoception.Air-hunger (236);Interoception.Bladder (315);Interoception.Hunger (386);Interoception.Other (200);Interoception.Sexuality (877);Interoception.Sleep (260);Interoception.Thermoregulation (29);Interoception.Thirst (209);Perception.Audition (2850);Perception.Gustation (1173);Perception.Olfaction (400);Perception.Somethesis (2542);Perception.Somethesis.Pain (3472);Perception.Vision.Color (201);Perception.Vision.Motion (2514);Perception.Vision.Other (2106);Perception.Vision.Shape (2995)
+A8m, medial area 8;Frontal lobe;SFG, Superior frontal gyrus;Left;1;0;1,67;0;0;0;0;0;0;0;0;0;0;0;1,58;1,57;1,55;0;0;0;1,48;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A8m, medial area 8;Frontal lobe;SFG, Superior frontal gyrus;Right;2;0;0;0;1,31;0;0;0;0;0;0;1,35;0;0;0;0;0;0;0;0;1,93;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,58;0;0
+A8dl, dorsolateral area 8;Frontal lobe;SFG, Superior frontal gyrus;Left;3;0;0;0;0;0;0;0;0;0;1,92;0;0;0;0;0;0;0;1,48;0;0;0;0;0;1,61;0;0;0;2,73;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A8dl, dorsolateral area 8;Frontal lobe;SFG, Superior frontal gyrus;Right;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,16;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9l, lateral area 9;Frontal lobe;SFG, Superior frontal gyrus;Left;5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,97;0;0;0;0;0;2,14;0;0;0;2,24;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9l, lateral area 9;Frontal lobe;SFG, Superior frontal gyrus;Right;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,07;0;0;0;1,82;0;0;0;0;0;0;0;3,33;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A6dl, dorsolateral area 6;Frontal lobe;SFG, Superior frontal gyrus;Left;7;2,24;0;1,57;0;0;0;2,73;0;0;0;0;0;0;0;0;0;0;0;0;3,2;0;0;0;0;0;2,44;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,73;0;4,25
+A6dl, dorsolateral area 6;Frontal lobe;SFG, Superior frontal gyrus;Right;8;2,76;0;0;1,97;0;0;1,47;0;0;0;6,39;0;0;0;0;0;0;0;0;2,72;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,76;0;0
+A6m, medial area 6;Frontal lobe;SFG, Superior frontal gyrus;Left;9;3,4;0;1,62;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,04;0;0
+A6m, medial area 6;Frontal lobe;SFG, Superior frontal gyrus;Right;10;3,35;0;2,27;2,77;0;0;1,68;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,71;0;0;1,71;0;0
+A9m, medial area 9;Frontal lobe;SFG, Superior frontal gyrus;Left;11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,71;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9m, medial area 9;Frontal lobe;SFG, Superior frontal gyrus;Right;12;0;0;0;1,55;0;0;0;0;0;2,12;1,37;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,43;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A10m, medial area 10;Frontal lobe;SFG, Superior frontal gyrus;Left;13;0;0;0;0;0;0;0;0;0;4,04;0;0;0;0;0;0;0;4,32;0;0;0;0;0;1,57;0;0;0;2,13;0;0;0;0;0;0;0;1,57;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A10m, medial area 10;Frontal lobe;SFG, Superior frontal gyrus;Right;14;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,99;0;0;0;1,96;0;0;0;0;0;4,99;0;3,27;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9/46d, dorsal area 9/46;Frontal lobe;MFG, Middle frontal gyrus;Left;15;0;0;0;2,68;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,13;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9/46d, dorsal area 9/46;Frontal lobe;MFG, Middle frontal gyrus;Right;16;0;0;0;1,5;0;0;0;0;0;0;3,02;0;0;0;0;0;0;0;0;1,87;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+IFJ, inferior frontal junction;Frontal lobe;MFG, Middle frontal gyrus;Left;17;0;0;0;0;0;0;0;0;0;0;0;0;0;1,82;1,8;0;0;1,63;0;1,45;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+IFJ, inferior frontal junction;Frontal lobe;MFG, Middle frontal gyrus;Right;18;0;0;0;1,89;0;0;0;0;0;0;1,88;0;0;0;0;0;0;0;0;2,6;0;0;2,66;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A46, area 46;Frontal lobe;MFG, Middle frontal gyrus;Left;19;0;0;0;2,8;0;0;0;0;0;1,55;0;0;0;0;0;0;0;1,43;0;1,88;0;0;0;2,13;0;0;0;1,85;0;0;0;0;0;0;0;0;0;0;0;0;1,66;0;0;0;0;0;0;0;0;0;0;0;0
+A46, area 46;Frontal lobe;MFG, Middle frontal gyrus;Right;20;0;0;0;1,68;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,44;0;0;0;2,77;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9/46v, ventral area 9/46;Frontal lobe;MFG, Middle frontal gyrus;Left;21;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,31;0;0;2,15;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A9/46v, ventral area 9/46;Frontal lobe;MFG, Middle frontal gyrus;Right;22;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,35;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,7;0;0;0;0
+A8vl, ventrolateral area 8;Frontal lobe;MFG, Middle frontal gyrus;Left;23;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,71;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A8vl, ventrolateral area 8;Frontal lobe;MFG, Middle frontal gyrus;Right;24;0;0;0;1,89;0;0;0;0;0;0;0;0;0;0;0;0;0;2,57;0;1,66;0;0;2,24;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A6vl, ventrolateral area 6;Frontal lobe;MFG, Middle frontal gyrus;Left;25;3,55;0;0;0;0;0;3,14;0;0;0;0;0;0;0;0;0;0;0;0;1,78;0;0;0;0;0;1,95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,46;2,16;0
+A6vl, ventrolateral area 6;Frontal lobe;MFG, Middle frontal gyrus;Right;26;0;0;0;2,21;0;0;2,1;4,48;0;0;0;0;0;0;0;0;0;0;0;2,68;0;0;3,15;0;0;2,41;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,35;0;0
+A10l, lateral area 10;Frontal lobe;MFG, Middle frontal gyrus;Left;27;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A10l, lateral area 10;Frontal lobe;MFG, Middle frontal gyrus;Right;28;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,94;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A44d, dorsal area 44;Frontal lobe;IFG, Inferior frontal gyrus;Left;29;0;0;0;0;0;0;0;0;0;0;0;0;0;1,55;2,27;3,68;1,65;0;0;3,92;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A44d, dorsal area 44;Frontal lobe;IFG, Inferior frontal gyrus;Right;30;0;0;0;0;0;0;0;0;0;0;1,52;0;0;0;0;0;0;0;0;0;0;0;2,35;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+IFS, inferior frontal sulcus;Frontal lobe;IFG, Inferior frontal gyrus;Left;31;0;0;0;0;0;0;0;0;0;0;0;0;0;1,85;2,41;1,54;2,8;3,7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+IFS, inferior frontal sulcus;Frontal lobe;IFG, Inferior frontal gyrus;Right;32;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A45c, caudal area 45;Frontal lobe;IFG, Inferior frontal gyrus;Left;33;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,55;1,65;2,2;3,84;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A45c, caudal area 45;Frontal lobe;IFG, Inferior frontal gyrus;Right;34;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A45r, rostral area 45;Frontal lobe;IFG, Inferior frontal gyrus;Left;35;0;0;0;0;0;0;0;0;0;0;0;0;5,43;0;2,55;5,04;1,57;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A45r, rostral area 45;Frontal lobe;IFG, Inferior frontal gyrus;Right;36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,79;0;0;3,57;0;0;0;0;3,77;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A44op, opercular area 44;Frontal lobe;IFG, Inferior frontal gyrus;Left;37;0;0;0;0;0;0;0;0;0;0;0;0;0;3,21;2,15;1,77;1,81;0;0;0;0;0;0;0;0;0;0;0;0;0;2,15;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A44op, opercular area 44;Frontal lobe;IFG, Inferior frontal gyrus;Right;38;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,28;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,14;0;0;0;0
+A44v, ventral area 44;Frontal lobe;IFG, Inferior frontal gyrus;Left;39;0;0;2,47;0;0;0;0;0;0;0;0;0;0;2,15;2,6;1,63;0;0;0;0;2,15;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A44v, ventral area 44;Frontal lobe;IFG, Inferior frontal gyrus;Right;40;0;0;0;0;0;2,56;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,12;0;0;0;0
+A14m, medial area 14;Frontal lobe;OrG, Orbital gyrus;Left;41;0;0;0;0;0;0;0;0;0;2,29;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,31;0;0;0;3,12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A14m, medial area 14;Frontal lobe;OrG, Orbital gyrus;Right;42;0;0;0;0;0;0;0;0;0;2,39;0;0;0;0;0;0;0;0;0;0;0;0;0;3,21;0;0;0;2,3;0;0;0;2,44;0;0;0;0;0;0;0;0;5,81;0;0;0;0;4,15;0;0;0;0;0;0;0
+A12/47o, orbital area 12/47;Frontal lobe;OrG, Orbital gyrus;Left;43;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,58;0;0;4,05;0;0;0;0;0;0;0;0;0;3,59;0;0;0;0;0;0;0;1,64;0;0;0;0;0;0;0;0;0;1,88;0;0;0;0;0;0;0
+A12/47o, orbital area 12/47;Frontal lobe;OrG, Orbital gyrus;Right;44;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,49;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,79;0;0;0;0;0;0;0
+A11l, lateral area 11;Frontal lobe;OrG, Orbital gyrus;Left;45;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,86;0;0;0;0;0;0;0;0;0;0;0;0;5,95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,64;0;0;0;0;0;0;0
+A11l, lateral area 11;Frontal lobe;OrG, Orbital gyrus;Right;46;0;0;0;0;0;0;0;0;0;2,74;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,68;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8,2;1,91;0;0;0;0;0;0
+A11m, medial area 11;Frontal lobe;OrG, Orbital gyrus;Left;47;0;0;0;0;0;0;0;0;0;2,33;0;3,06;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,45;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A11m, medial area 11;Frontal lobe;OrG, Orbital gyrus;Right;48;0;0;0;0;0;0;0;0;0;1,96;0;3,33;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,27;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A13, area 13;Frontal lobe;OrG, Orbital gyrus;Left;49;0;0;0;0;0;0;0;0;0;2,6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,73;0;0;0;3,03;0;0;0;3,13;0;0;0;0;6,14;0;0;0;0;0;5,5;0;0;0;0;0;0
+A13, area 13;Frontal lobe;OrG, Orbital gyrus;Right;50;0;0;0;0;0;0;0;0;0;2,27;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,58;0;0;0;6,56;0;3,39;0;3,88;0;0;0;0;3,29;0;0;0;0;3,39;0;0;0;0;0;0;0
+A12/47l, lateral area 12/47;Frontal lobe;OrG, Orbital gyrus;Left;51;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,46;0;0;1,44;0;0;0;0;0;0;0;0;0;1,9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A12/47l, lateral area 12/47;Frontal lobe;OrG, Orbital gyrus;Right;52;0;0;0;1,45;0;0;0;0;0;0;0;0;0;0;0;0;0;1,91;0;0;0;0;0;0;0;0;0;1,37;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4hf, area 4(head and face region);Frontal lobe;PrG, Precentral gyrus;Left;53;2,49;2,46;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4hf, area 4(head and face region);Frontal lobe;PrG, Precentral gyrus;Right;54;1,97;2,46;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,18;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,01;0;0
+A6cdl, caudal dorsolateral area 6;Frontal lobe;PrG, Precentral gyrus;Left;55;2,34;0;2,7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,87;0;2,64
+A6cdl, caudal dorsolateral area 6;Frontal lobe;PrG, Precentral gyrus;Right;56;2,49;0;3;0;0;2,62;3,73;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,72;3,3;0;0;0;0;0;0;0;0;0;0;0;0;0;3,4;0;0;0;0;0;0;0;0;0;0;1,94;0;3,82
+A4ul, area 4(upper limb region);Frontal lobe;PrG, Precentral gyrus;Left;57;4,25;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,04;0;0;0;0;0
+A4ul, area 4(upper limb region);Frontal lobe;PrG, Precentral gyrus;Right;58;3,74;0;0;0;0;0;4,05;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4t, area 4(trunk region);Frontal lobe;PrG, Precentral gyrus;Left;59;33,06;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,88;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4t, area 4(trunk region);Frontal lobe;PrG, Precentral gyrus;Right;60;3,15;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4tl, area 4(tongue and larynx region);Frontal lobe;PrG, Precentral gyrus;Left;61;3,08;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,7;0;0;0;0
+A4tl, area 4(tongue and larynx region);Frontal lobe;PrG, Precentral gyrus;Right;62;3,41;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,17;0;0;0;0
+A6cvl, caudal ventrolateral area 6;Frontal lobe;PrG, Precentral gyrus;Left;63;0;0;0;0;0;0;0;0;0;0;0;2,53;0;1,33;1,61;1,76;2,16;0;0;1,34;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A6cvl, caudal ventrolateral area 6;Frontal lobe;PrG, Precentral gyrus;Right;64;1,39;0;0;0;0;2,61;0;1,86;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,76;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A1/2/3ll, area 1/2/3 (lower limb region);Frontal lobe;PCL, Paracentral lobule;Left;65;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A1/2/3ll, area 1/2/3 (lower limb region);Frontal lobe;PCL, Paracentral lobule;Right;66;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4ll, area 4, (lower limb region);Frontal lobe;PCL, Paracentral lobule;Left;67;2,87;0;4,3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A4ll, area 4, (lower limb region);Frontal lobe;PCL, Paracentral lobule;Right;68;15,26;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,63;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A38m, medial area 38;Temporal lobe;STG, Superior temporal gyrus;Left;69;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,91;0;0;1,85;0;0;6,18;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A38m, medial area 38;Temporal lobe;STG, Superior temporal gyrus;Right;70;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A41/42, area 41/42;Temporal lobe;STG, Superior temporal gyrus;Left;71;0;5,47;0;0;0;0;0;0;0;0;0;0;3,06;3,21;0;3,27;0;0;0;0;3,09;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,86;0;0;0;0;0;0;0;0
+A41/42, area 41/42;Temporal lobe;STG, Superior temporal gyrus;Right;72;0;2,58;0;0;0;0;0;0;0;0;0;0;0;3,32;0;0;0;0;0;0;1,96;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,67;0;0;3,99;0;0;0;0;0
+TE1.0 and TE1.2;Temporal lobe;STG, Superior temporal gyrus;Left;73;0;2,4;0;0;0;0;4,04;0;0;0;0;0;0;4,3;0;2,35;0;0;0;0;4,85;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,71;0;0;0;0;0;0;0;0
+TE1.0 and TE1.2;Temporal lobe;STG, Superior temporal gyrus;Right;74;0;2,22;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,79;0;0;0;0;0;0;0;0;3,23;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,76;0;0;0;3,78;0;0;0;0
+A22c, caudal area 22;Temporal lobe;STG, Superior temporal gyrus;Left;75;4,14;0;0;0;0;0;0;0;0;0;0;0;0;3,88;2,18;2,48;0;0;0;0;2,24;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,65;0;0;0;0;0;0;0;0
+A22c, caudal area 22;Temporal lobe;STG, Superior temporal gyrus;Right;76;0;4,74;0;0;0;0;0;0;0;0;0;0;3,82;3,25;0;4,25;0;0;0;0;2,89;0;0;0;0;0;0;0;0;0;0;0;0;4,78;0;0;0;0;0;0;0;0;0;0;1,78;0;0;0;0;0;0;0;0
+A38l, lateral area 38;Temporal lobe;STG, Superior temporal gyrus;Left;77;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A38l, lateral area 38;Temporal lobe;STG, Superior temporal gyrus;Right;78;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,37;0;0;0;0;0;0;0;0;0;0;0;1,59;1,54;0;2,91;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,64;0;0;0;0;0;0;0
+A22r, rostral area 22;Temporal lobe;STG, Superior temporal gyrus;Left;79;0;2,49;0;0;0;0;2,05;0;0;0;0;0;1,94;3,01;3,54;4,53;0;0;0;0;2,57;0;0;0;0;0;0;0;0;0;0;0;0;2,67;0;7,1;0;0;0;0;0;0;0;0;1,46;0;0;0;0;0;0;0;0
+A22r, rostral area 22;Temporal lobe;STG, Superior temporal gyrus;Right;80;0;5,46;0;0;0;0;0;0;0;0;0;0;0;3,2;3,45;2,11;0;0;0;0;2,68;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,87;0;0;0;0;0;0;0;0
+A21c, caudal area 21;Temporal lobe;MTG, Middle temporal gyrus;Left;81;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,99;0;0;3,35;0;0;0;0;0;1,9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A21c, caudal area 21;Temporal lobe;MTG, Middle temporal gyrus;Right;82;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,73;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A21r, rostral area 21;Temporal lobe;MTG, Middle temporal gyrus;Left;83;0;0;0;0;0;0;0;0;0;0;0;0;4,92;0;0;0;0;0;0;0;0;0;0;10,97;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A21r, rostral area 21;Temporal lobe;MTG, Middle temporal gyrus;Right;84;0;0;0;0;0;0;0;0;0;0;0;0;4,05;0;0;0;0;5,96;0;0;0;0;0;4;0;0;0;0;0;0;0;0;0;2,42;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A37dl, dorsolateral area 37;Temporal lobe;MTG, Middle temporal gyrus;Left;85;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,46;0;3,83;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A37dl, dorsolateral area 37;Temporal lobe;MTG, Middle temporal gyrus;Right;86;0;0;0;0;0;3,01;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+aSTS, anterior superior temporal sulcus;Temporal lobe;MTG, Middle temporal gyrus;Left;87;0;0;0;0;0;0;0;0;0;0;0;0;0;1,79;2,45;2,04;1,57;4,89;0;0;0;0;0;2,8;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,48;0;0;0;0;0;0;0;0
+aSTS, anterior superior temporal sulcus;Temporal lobe;MTG, Middle temporal gyrus;Right;88;0;0;0;0;0;0;0;0;0;0;0;0;1,53;0;2,41;2,11;0;0;0;0;0;0;0;3,34;0;0;2,85;0;0;0;0;0;0;3,28;0;0;0;0;0;0;0;0;0;0;1,49;0;0;0;0;0;0;0;0
+A20iv, intermediate ventral area 20;Temporal lobe;ITG, Inferior temporal gyrus;Left;89;0;0;0;0;0;0;0;0;0;0;0;4,86;0;0;2,81;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20iv, intermediate ventral area 20;Temporal lobe;ITG, Inferior temporal gyrus;Right;90;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,15;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A37elv, extreme lateroventral area 37;Temporal lobe;ITG, Inferior temporal gyrus;Left;91;0;0;0;0;0;0;0;0;0;0;0;0;0;1,71;2,1;0;0;0;0;3,12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A37elv, extreme lateroventral area 37;Temporal lobe;ITG, Inferior temporal gyrus;Right;92;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20r, rostral area 20;Temporal lobe;ITG, Inferior temporal gyrus;Left;93;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,85;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20r, rostral area 20;Temporal lobe;ITG, Inferior temporal gyrus;Right;94;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20il, intermediate lateral area 20;Temporal lobe;ITG, Inferior temporal gyrus;Left;95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20il, intermediate lateral area 20;Temporal lobe;ITG, Inferior temporal gyrus;Right;96;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A37vl, ventrolateral area 37;Temporal lobe;ITG, Inferior temporal gyrus;Left;97;0;0;0;0;0;1,79;0;0;0;0;0;0;0;0;2,05;3,88;0;0;0;3,01;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,75;0;0;0;0;0;0;0;0;0;0;0;0
+A37vl, ventrolateral area 37;Temporal lobe;ITG, Inferior temporal gyrus;Right;98;0;0;0;0;0;2,54;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,51
+A20cl, caudolateral of area 20;Temporal lobe;ITG, Inferior temporal gyrus;Left;99;0;0;0;0;0;0;0;0;0;0;0;3,82;0;0;3,18;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20cl, caudolateral of area 20;Temporal lobe;ITG, Inferior temporal gyrus;Right;100;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20cv, caudoventral of area 20;Temporal lobe;ITG, Inferior temporal gyrus;Left;101;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,88;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20cv, caudoventral of area 20;Temporal lobe;ITG, Inferior temporal gyrus;Right;102;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20rv, rostroventral area 20;Temporal lobe;FuG, Fusiform gyrus;Left;103;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,08;1,98;0;1,95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A20rv, rostroventral area 20;Temporal lobe;FuG, Fusiform gyrus;Right;104;0;0;0;0;0;0;0;0;0;0;0;0;2,72;0;4,35;0;0;2,14;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,76
+A37mv, medioventral area 37;Temporal lobe;FuG, Fusiform gyrus;Left;105;0;0;0;0;0;0;0;0;0;0;0;1,84;2,17;0;1,38;3,31;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,83;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,39;1,62
+A37mv, medioventral area 37;Temporal lobe;FuG, Fusiform gyrus;Right;106;0;0;0;0;0;0;1,86;0;0;0;0;0;2,82;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,47;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,86;2,46
+A37lv, lateroventral area 37;Temporal lobe;FuG, Fusiform gyrus;Left;107;0;0;0;0;0;0;0;0;0;0;0;2,56;2,56;2,24;2,06;2,89;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,51
+A37lv, lateroventral area 37;Temporal lobe;FuG, Fusiform gyrus;Right;108;0;0;0;0;0;2,23;0;0;0;0;0;3,91;2,32;0;1,93;0;0;0;0;0;0;0;0;0;0;2,11;0;0;3,57;0;0;1,83;0;0;0;0;0;0;0;0;2,75;0;0;0;0;0;0;0;0;0;0;1,94;1,58
+A35/36r, rostral area 35/36;Temporal lobe;PhG, Parahippocampal gyrus;Left;109;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,48;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A35/36r, rostral area 35/36;Temporal lobe;PhG, Parahippocampal gyrus;Right;110;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A35/36c, caudal area 35/36;Temporal lobe;PhG, Parahippocampal gyrus;Left;111;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,71;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A35/36c, caudal area 35/36;Temporal lobe;PhG, Parahippocampal gyrus;Right;112;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,87;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+TL, area TL (lateral PPHC, posterior parahippocampal gyrus);Temporal lobe;PhG, Parahippocampal gyrus;Left;113;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,08;0;0;2,85;0;0;0;0;0;3,23;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+TL, area TL (lateral PPHC, posterior parahippocampal gyrus);Temporal lobe;PhG, Parahippocampal gyrus;Right;114;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6,28;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,89;0;0;0;0;0;0;0
+A28/34, area 28/34 (EC, entorhinal cortex);Temporal lobe;PhG, Parahippocampal gyrus;Left;115;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,81;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A28/34, area 28/34 (EC, entorhinal cortex);Temporal lobe;PhG, Parahippocampal gyrus;Right;116;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,28;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+TI, area TI(temporal agranular insular cortex);Temporal lobe;PhG, Parahippocampal gyrus;Left;117;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,35;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+TI, area TI(temporal agranular insular cortex);Temporal lobe;PhG, Parahippocampal gyrus;Right;118;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+TH, area TH (medial PPHC);Temporal lobe;PhG, Parahippocampal gyrus;Left;119;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,34;0
+TH, area TH (medial PPHC);Temporal lobe;PhG, Parahippocampal gyrus;Right;120;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,74;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,69;0
+rpSTS, rostroposterior superior temporal sulcus;Temporal lobe;pSTS, Posterior superior temporal sulcus;Left;121;0;0;0;0;0;0;0;0;0;0;0;0;2,91;2,86;2,54;2,61;2,93;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,65;0;0;0;0;0;0;0;0
+rpSTS, rostroposterior superior temporal sulcus;Temporal lobe;pSTS, Posterior superior temporal sulcus;Right;122;0;2,32;0;0;0;4,19;0;0;0;0;0;0;0;2,82;2,69;2,84;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,35;0;0;0;0;0;0;0;0;0;0;1,84;0;0;0;0;0;0;0;0
+cpSTS, caudoposterior superior temporal sulcus;Temporal lobe;pSTS, Posterior superior temporal sulcus;Left;123;0;0;0;0;0;0;0;0;0;0;0;2,84;0;0;2,51;4,32;2,38;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,68;0;0;0;0;0;0;0;0
+cpSTS, caudoposterior superior temporal sulcus;Temporal lobe;pSTS, Posterior superior temporal sulcus;Right;124;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,92;0;0;0;0;0;0;0;0
+A7r, rostral area 7;Parietal lobe;SPL, Superior parietal lobule;Left;125;3,87;0;4,71;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,18;0;0;0;0;2,94;1,95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,96;0;2,9
+A7r, rostral area 7;Parietal lobe;SPL, Superior parietal lobule;Right;126;1,89;0;3,26;0;0;0;2,33;0;0;0;0;0;0;0;0;0;0;0;0;2,61;0;0;0;0;9,45;3,62;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,81;0;3,68
+A7c, caudal area 7;Parietal lobe;SPL, Superior parietal lobule;Left;127;3,41;0;0;0;0;0;0;2,75;0;0;3,44;0;0;0;0;0;0;0;0;1,82;0;0;2,1;0;0;1,46;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,45;0;1,9
+A7c, caudal area 7;Parietal lobe;SPL, Superior parietal lobule;Right;128;4,42;0;0;2,08;0;0;0;0;0;0;4,46;0;0;0;0;0;0;0;0;2,4;0;0;0;0;0;1,5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,54;0;2,67
+A5l, lateral area 5;Parietal lobe;SPL, Superior parietal lobule;Left;129;2,45;0;1,71;0;0;1,51;0;0;0;0;2,35;0;0;0;0;0;0;0;0;2,22;0;0;0;0;2,53;1,61;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,41;0;2,56
+A5l, lateral area 5;Parietal lobe;SPL, Superior parietal lobule;Right;130;2,19;0;7,81;0;0;0;2,18;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,74;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,35;0;0
+A7pc, postcentral area 7;Parietal lobe;SPL, Superior parietal lobule;Left;131;2,92;0;3,44;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A7pc, postcentral area 7;Parietal lobe;SPL, Superior parietal lobule;Right;132;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A7ip, intraparietal area 7(hIP3);Parietal lobe;SPL, Superior parietal lobule;Left;133;0;0;0;0;0;0;0;0;0;0;2,13;0;0;0;0;0;0;0;0;1,76;0;0;1,92;0;0;2,87;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,37;0;0
+A7ip, intraparietal area 7(hIP3);Parietal lobe;SPL, Superior parietal lobule;Right;134;0;0;0;0;0;0;0;0;0;0;2,57;0;0;0;0;0;0;0;0;2,16;0;0;3,76;0;0;1,54;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,97;0;0;0;0;0;0;0;0;2,64;2,89;0;1,48
+A39c, caudal area 39(PGp);Parietal lobe;IPL, Inferior parietal lobule;Left;135;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,78;0;0;0;0;2,71;0;0;1,64;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,32
+A39c, caudal area 39(PGp);Parietal lobe;IPL, Inferior parietal lobule;Right;136;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,55;0;2,07;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,18;0;2,29
+A39rd, rostrodorsal area 39(Hip3);Parietal lobe;IPL, Inferior parietal lobule;Left;137;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,88;0;0;2,06;0;0;2,29;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A39rd, rostrodorsal area 39(Hip3);Parietal lobe;IPL, Inferior parietal lobule;Right;138;0;0;0;0;0;0;0;0;0;3,03;2,58;0;0;0;0;0;0;0;0;1,35;0;0;1,37;0;0;1,83;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A40rd, rostrodorsal area 40(PFt);Parietal lobe;IPL, Inferior parietal lobule;Left;139;1,3;0;1,79;0;0;1,89;0;0;0;0;1,9;0;0;0;0;0;0;0;0;2,04;0;0;0;0;0;1,35;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,5;0;0;0;0;0
+A40rd, rostrodorsal area 40(PFt);Parietal lobe;IPL, Inferior parietal lobule;Right;140;1,56;0;0;0;0;0;1,87;0;0;0;0;0;0;0;0;0;0;0;0;3,4;0;0;0;0;0;1,44;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,25;0;0;0;0;0
+A40c, caudal area 40(PFm);Parietal lobe;IPL, Inferior parietal lobule;Left;141;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,45;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A40c, caudal area 40(PFm);Parietal lobe;IPL, Inferior parietal lobule;Right;142;1,98;0;0;1,37;0;0;0;0;0;0;2,46;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,99;0;0;0;0;0;0;0;0;0;0;1,43;0;2,1;0;0
+A39rv, rostroventral area 39(PGa);Parietal lobe;IPL, Inferior parietal lobule;Left;143;0;0;0;0;0;0;0;0;0;1,87;0;0;2,69;0;0;0;0;1,46;0;0;0;0;0;1,36;0;0;0;3,47;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A39rv, rostroventral area 39(PGa);Parietal lobe;IPL, Inferior parietal lobule;Right;144;0;0;0;0;0;2,31;0;0;0;0;2,16;0;0;0;0;0;0;0;0;0;0;0;0;1,42;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A40rv, rostroventral area 40(PFop);Parietal lobe;IPL, Inferior parietal lobule;Left;145;3,2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,63;0;0;1,68;2,18;0;0;0;0
+A40rv, rostroventral area 40(PFop);Parietal lobe;IPL, Inferior parietal lobule;Right;146;3,89;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,27;2,05;0;0;0;0
+A7m, medial area 7(PEp);Parietal lobe;Pcun, Precuneus;Left;147;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,25;0;0;0;0;0;1,94;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,2;0;0
+A7m, medial area 7(PEp);Parietal lobe;Pcun, Precuneus;Right;148;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,34;0;0;0;0;0;2,39;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,52;0;0
+A5m, medial area 5(PEm);Parietal lobe;Pcun, Precuneus;Left;149;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A5m, medial area 5(PEm);Parietal lobe;Pcun, Precuneus;Right;150;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,34;0;3,24;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+dmPOS, dorsomedial parietooccipital sulcus(PEr);Parietal lobe;Pcun, Precuneus;Left;151;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,16;0;0;0;0;0;2,35;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+dmPOS, dorsomedial parietooccipital sulcus(PEr);Parietal lobe;Pcun, Precuneus;Right;152;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,94;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,06;0;0
+A31, area 31 (Lc1);Parietal lobe;Pcun, Precuneus;Left;153;0;0;0;0;0;0;0;0;0;0;0;0;4,86;0;0;0;0;4,53;0;0;0;0;0;2,41;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A31, area 31 (Lc1);Parietal lobe;Pcun, Precuneus;Right;154;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,45;0;0;0;0;0;3,11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A1/2/3ulhf, area 1/2/3(upper limb, head and face region);Parietal lobe;PoG, Postcentral gyrus;Left;155;3,52;1,81;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,7;0;0;0;0;0
+A1/2/3ulhf, area 1/2/3(upper limb, head and face region);Parietal lobe;PoG, Postcentral gyrus;Right;156;2,74;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,85;0;0;0;0;0;0;0
+A1/2/3tonIa, area 1/2/3(tongue and larynx region);Parietal lobe;PoG, Postcentral gyrus;Left;157;3,21;2,1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,47;0;0;2,42;1,7;0;0;0;0
+A1/2/3tonIa, area 1/2/3(tongue and larynx region);Parietal lobe;PoG, Postcentral gyrus;Right;158;2,8;3,47;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,86;1,83;0;0;0;0
+A2, area 2;Parietal lobe;PoG, Postcentral gyrus;Left;159;2,65;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,23;0;0;0;0;0
+A2, area 2;Parietal lobe;PoG, Postcentral gyrus;Right;160;2,3;0;3,11;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,61;0;0;0;0;0
+A1/2/3tru, area 1/2/3(trunk region);Parietal lobe;PoG, Postcentral gyrus;Left;161;3,1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,33;3,1;0;0;0;0
+A1/2/3tru, area 1/2/3(trunk region);Parietal lobe;PoG, Postcentral gyrus;Right;162;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,09;0;0;0;0;0
+G, hypergranular insula;Insular lobe;INS, Insular gyrus;Left;163;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,96;5,48;0;0;0;0
+G, hypergranular insula;Insular lobe;INS, Insular gyrus;Right;164;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,44;0;0;0;0
+vIa, ventral agranular insula;Insular lobe;INS, Insular gyrus;Left;165;0;0;0;0;0;0;0;0;0;1,87;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,79;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+vIa, ventral agranular insula;Insular lobe;INS, Insular gyrus;Right;166;0;0;0;2,85;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,32;0;0;0;0;0;0;0
+dIa, dorsal agranular insula;Insular lobe;INS, Insular gyrus;Left;167;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+dIa, dorsal agranular insula;Insular lobe;INS, Insular gyrus;Right;168;0;0;0;2,39;0;0;0;0;0;1,96;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,42;0;0;0;0
+vId/vIg, ventral dysgranular and granular insula;Insular lobe;INS, Insular gyrus;Left;169;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,76;3,01;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,08;3,23;0;0;0;0
+vId/vIg, ventral dysgranular and granular insula;Insular lobe;INS, Insular gyrus;Right;170;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7,4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,22;0;3,85;0;0;0;0
+dIg, dorsal granular insula;Insular lobe;INS, Insular gyrus;Left;171;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,96;0;0;0;0;0;0;0;0;0;4,21;0;0;0;0;3,43;0;3,06;3,54;0;0;0;0
+dIg, dorsal granular insula;Insular lobe;INS, Insular gyrus;Right;172;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,41;0;0;0;0
+dId, dorsal dysgranular insula;Insular lobe;INS, Insular gyrus;Left;173;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,89;0;0;3,84;0;0;0;0
+dId, dorsal dysgranular insula;Insular lobe;INS, Insular gyrus;Right;174;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,99;0;0;0;0
+A23d, dorsal area 23;Limbic lobe;CG, Cingulate gyrus;Left;175;0;0;0;0;0;0;0;0;0;1,82;0;0;0;0;0;0;0;2,84;0;0;0;0;0;1,86;0;0;0;1,95;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A23d, dorsal area 23;Limbic lobe;CG, Cingulate gyrus;Right;176;0;0;0;0;0;0;0;0;0;1,86;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,94;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A24rv, rostroventral area 24;Limbic lobe;CG, Cingulate gyrus;Left;177;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,84;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,93;0;0;0;0
+A24rv, rostroventral area 24;Limbic lobe;CG, Cingulate gyrus;Right;178;0;0;0;0;0;0;0;0;0;1,76;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,76;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A32p, pregenual area 32;Limbic lobe;CG, Cingulate gyrus;Left;179;0;0;0;0;0;0;0;0;0;1,86;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,83;0;0;0;0;0;0;0;2,45;0;0;0;0;0;0;0;0;0;2,95;0;0;2,19;0;0;0;0
+A32p, pregenual area 32;Limbic lobe;CG, Cingulate gyrus;Right;180;0;0;0;1,38;0;0;0;0;0;0;2,17;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,02;0;0;0;0;0;0
+A23v, ventral area 23;Limbic lobe;CG, Cingulate gyrus;Left;181;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,53;0;0;0;0;0;3,3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A23v, ventral area 23;Limbic lobe;CG, Cingulate gyrus;Right;182;0;0;0;0;0;0;0;0;0;1,78;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,97;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A24cd, caudodorsal area 24;Limbic lobe;CG, Cingulate gyrus;Left;183;3,42;0;0;0;0;0;0;3,77;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,83;0;0;0;0
+A24cd, caudodorsal area 24;Limbic lobe;CG, Cingulate gyrus;Right;184;2,36;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,9;1,58;0;0;0;0
+A23c, caudal area 24;Limbic lobe;CG, Cingulate gyrus;Left;185;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A23c, caudal area 24;Limbic lobe;CG, Cingulate gyrus;Right;186;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,72;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+A32sg, subgenual area 32;Limbic lobe;CG, Cingulate gyrus;Left;187;0;0;0;0;0;0;0;0;0;3,66;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,06;0;0;0;0;0;0;0;0;0;0;0;0;1,92;0;0;0;0;4,85;0;0;0;0;0;0;0
+A32sg, subgenual area 32;Limbic lobe;CG, Cingulate gyrus;Right;188;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,85;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,8;0;0;3,96;0;0;0;0
+cLinG, caudal lingual gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Left;189;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,33;2,77;0
+cLinG, caudal lingual gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Right;190;0;0;0;0;0;2,73;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,14;0;0;0;0;0;0;0;0;0;0;0;0;0;2,49;7,92;0
+rCunG, rostral cuneus gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Left;191;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,41;0;0
+rCunG, rostral cuneus gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Right;192;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+cCunG, caudal cuneus gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Left;193;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,68;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+cCunG, caudal cuneus gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Right;194;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,16;2,66;0
+rLinG, rostral lingual gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Left;195;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+rLinG, rostral lingual gyrus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Right;196;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+vmPOS,ventromedial parietooccipital sulcus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Left;197;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,86;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+vmPOS,ventromedial parietooccipital sulcus;Occipital lobe;MVOcC, MedioVentral occipital cortex;Right;198;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+mOccG, middle occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Left;199;0;0;0;0;0;0;0;0;0;0;0;1,82;0;0;0;0;0;0;0;0;0;0;0;0;0;2,12;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,37;2,35;2,25
+mOccG, middle occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Right;200;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,33;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,93;3,05
+V5/MT+, area V5/MT+;Occipital lobe;LOcC, Lateral occipital cortex;Left;201;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,83;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,87;0;0;0;0;0;0;0;0;0;2,01;3,74;1,87
+V5/MT+, area V5/MT+;Occipital lobe;LOcC, Lateral occipital cortex;Right;202;0;0;0;0;0;2,44;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,24;0;0;0;0;4,82;0;0;0;0;0;0;0;4,3;0;1,96;0;0;0;0;0;0;0;0;0;2,36;2,4;2,35
+OPC, occipital polar cortex;Occipital lobe;LOcC, Lateral occipital cortex;Left;203;0;0;0;0;0;0;0;0;0;0;0;0;1,55;0;4,16;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,06;0
+OPC, occipital polar cortex;Occipital lobe;LOcC, Lateral occipital cortex;Right;204;0;0;0;0;0;2,41;0;0;0;0;0;2,14;2,39;0;2,2;0;0;0;0;0;0;0;3,76;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1,53;2,71
+iOccG, inferior occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Left;205;0;0;0;0;0;0;0;0;0;0;0;1,92;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3,88;3,13
+iOccG, inferior occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Right;206;0;0;0;0;0;0;0;0;0;0;0;1,72;0;0;0;0;0;0;0;0;0;0;0;0;0;2,25;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,76;3,2
+msOccG, medial superior occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Left;207;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4,66;0;0
+msOccG, medial superior occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Right;208;0;0;0;2,88;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5,45;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,57;0;3,73
+lsOccG, lateral superior occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Left;209;0;0;0;0;0;0;0;0;0;0;2,81;0;0;0;0;0;0;0;0;2,92;0;0;3,25;0;0;1,72;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,37;0;1,68
+lsOccG, lateral superior occipital gyrus;Occipital lobe;LOcC, Lateral occipital cortex;Right;210;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,15;0;0;4,74;0;0;2,22;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2,26;2,69;3,33

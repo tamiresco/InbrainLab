@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT A00008326
+START_TIME Mon Oct 25 20:47:16 -03 2021
+END_TIME Tue Oct 26 05:35:32 -03 2021
+RUNTIME_HOURS 8.804
+USER brunovieira
+HOST c05
+PROCESSOR x86_64
+OS Linux
+UNAME Linux c05 3.10.0-1160.41.1.el7.x86_64 #1 SMP Tue Aug 31 14:52:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.580.2.16 2017/01/18 14:11:24 zkaufman Exp $
+CMDPATH /home/brunovieira/freesurfer/bin/recon-all
+CMDARGS -subject A00008326 -all -sd /home/brunovieira/freesurfer/nki_data
