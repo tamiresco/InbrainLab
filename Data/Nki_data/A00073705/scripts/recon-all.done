@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT A00073705
+START_TIME Sat Feb 19 21:14:46 -03 2022
+END_TIME Sun Feb 20 05:36:39 -03 2022
+RUNTIME_HOURS 8.365
+USER brunovieira
+HOST c06
+PROCESSOR x86_64
+OS Linux
+UNAME Linux c06 3.10.0-1160.41.1.el7.x86_64 #1 SMP Tue Aug 31 14:52:47 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.580.2.16 2017/01/18 14:11:24 zkaufman Exp $
+CMDPATH /home/brunovieira/freesurfer/bin/recon-all
+CMDARGS -subject A00073705 -all -sd /home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data
