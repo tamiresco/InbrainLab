@@ -99,9 +99,13 @@ def summarize_info(df1, df_eval_1, path=[], atlas =[]):
                             'bigbrain_layer_1', 'bigbrain_layer_2','bigbrain_layer_3', 
                             'bigbrain_layer_4', 'bigbrain_layer_5','bigbrain_layer_6'
                            ]].groupby(['h_structure']).mean()
+    df_summarize['Global thinning'] = df_summarize['Thickness at 10y.o.'] - df_summarize['Thickness at 80y.o.']
+    df_summarize['Global thinning normalized'] = (df_summarize['Thickness at 10y.o.'] - df_summarize['Thickness at 80y.o.'])/df_summarize['Thickness at 10y.o.']
     df_summarize = pd.merge(df_summarize, df_eval_1, left_on="atlas", right_on="structure")
-    #df_summarize.to_csv('vizualizations_economo_model.csv')
-    return df_summarize
+    if path != []:
+        df_summarize.to_csv(path+atlas+'_summary_data.csv')
+    else:
+        return df_summarize
     
 def boruta_ranking():
     # TO DO/THINK 
