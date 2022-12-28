@@ -10,24 +10,24 @@ The data used for this project is on Data folder and the analyses can be found o
 -> 1_Thinning_Processing.ipynb
   
 -> 2_Thinning_Modelling.ipynb
-    Multi Modelling:
-     • How a model predicting cortical thinnning performs when we use temporal and spatial variables?
-     • Which cortical structure thinning is better explained by which model?
-     • Database that summarizes the cortical structure information acquired in the models
-    Variable roles in cortical thinning (ShapValues):
-     • Which features are more important and how they contribute to the model in summary?
-     • Does the variables interact with each other on the model?
-     • How each variable contribute to the model?
+Multi Modelling:
+• How a model predicting cortical thinnning performs when we use temporal and spatial variables?
+• Which cortical structure thinning is better explained by which model?
+• Database that summarizes the cortical structure information acquired in the models
+Variable roles in cortical thinning (ShapValues):
+• Which features are more important and how they contribute to the model in summary?
+• Does the variables interact with each other on the model?
+• How each variable contribute to the model?
      
 -> 3_Cortex_Visualization.ipynb
 
 -> 4_Feature_Analyses.ipynb
-    Basic analysis of the variables relation to the annual thining rate:
-     • What are the features correlation to each other?  
-     • All the features are important to predict annual thining rate? (Boruta) 
-    Thinning segmented by Life Stages:
-     • Is thinning different in Development, Mid Life and Aging?
-     • Does features correlation to thinning vary depending on life stage?
-     • How is thinning in development correlated to thinning in aging?
+Basic analysis of the variables relation to the annual thining rate:
+• What are the features correlation to each other?  
+• All the features are important to predict annual thining rate? (Boruta) 
+Thinning segmented by Life Stages:
+• Is thinning different in Development, Mid Life and Aging?
+• Does features correlation to thinning vary depending on life stage?
+• How is thinning in development correlated to thinning in aging?
 
 Spotted a mistake or have a questions? Please message me, create an issue or email me on tamires dot 2505 at gmail dot com
