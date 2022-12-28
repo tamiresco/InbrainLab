@@ -22,19 +22,8 @@ Variable roles in cortical thinning (ShapValues):
 • Which features are more important and how they contribute to the model in summary?
 • Does the variables interact with each other on the model?
 • How each variable contribute to the model?
-     
-### 3) Cortex Visualization 
 
-Plots:
-• How much is thinning in the cortex?
-• How does our model perform in the cortex?
-• Which cortical structure thins the most in life?
-• How thick is Layer I in the cortex?
-• How thick is Layer IV in the cortex?
-• Which cortical structure thins the most in life?
-• How is an Atlas segmented?
-
-### 4) Feature Analyses
+### 3) Feature Analyses
 
 Basic analysis of the variables relation to the annual thining rate:
 • What are the features correlation to each other?  
@@ -44,4 +33,15 @@ Thinning segmented by Life Stages:
 • Is thinning different in Development, Mid Life and Aging?
 • Does features correlation to thinning vary depending on life stage?
 • How is thinning in development correlated to thinning in aging?
+
+### 4) Cortex Visualization 
+
+Plots:
+• How much is thinning in the cortex?
+• How does our model perform in the cortex?
+• Which cortical structure thins the most in life?
+• How thick is Layer I in the cortex?
+• How thick is Layer IV in the cortex?
+• Which cortical structure thins the most in life?
+• How is an Atlas segmented?
 
