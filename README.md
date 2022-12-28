@@ -10,7 +10,18 @@ The data used for this project is on Data folder, the methods built is on Script
 
 ## Notebooks
 ### 1) Thinning Processing 
-  
+
+Build main dataset:
+• Merge cytoarquitecture, anatomic and participants information
+• What is annual thinning rates for each cortical structure in each age?
+• Merge annual thinning rates
+
+Plots:
+•  Age histogram and Thinning Trend.
+•  How each cortical structure thin?
+•  What is the difference in thinning by lobules?
+•  Which structure gets thicker with aging?
+
 ### 2) Thinning Modelling 
 
 Multi Modelling:
