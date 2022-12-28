@@ -28,6 +28,7 @@ Variable roles in cortical thinning (ShapValues):
 Plots:
 • How much is thinning in the cortex?
 • How does our model perform in the cortex?
+• Which cortical structure thins the most in life?
 • How thick is Layer I in the cortex?
 • How thick is Layer IV in the cortex?
 • Which cortical structure thins the most in life?
