@@ -6,15 +6,15 @@ Cortical thinning is associated with pruning, neuroplasticity, and normal neurod
 
 The data used for this project is on Data folder and the analyses can be found on Notebooks folder.
 
-Notebooks
+### Notebooks
 -> 1_Thinning_Processing.ipynb
   
 -> 2_Thinning_Modelling.ipynb
-    Multi Modelling
+    Multi Modelling:
      • How a model predicting cortical thinnning performs when we use temporal and spatial variables?
      • Which cortical structure thinning is better explained by which model?
      • Database that summarizes the cortical structure information acquired in the models
-    Variable roles in cortical thinning (ShapValues)
+    Variable roles in cortical thinning (ShapValues):
      • Which features are more important and how they contribute to the model in summary?
      • Does the variables interact with each other on the model?
      • How each variable contribute to the model?
@@ -22,10 +22,10 @@ Notebooks
 -> 3_Cortex_Visualization.ipynb
 
 -> 4_Feature_Analyses.ipynb
-    Basic analysis of the variables relation to the annual thining rate
+    Basic analysis of the variables relation to the annual thining rate:
      • What are the features correlation to each other?  
      • All the features are important to predict annual thining rate? (Boruta) 
-    Thinning segmented by Life Stages
+    Thinning segmented by Life Stages:
      • Is thinning different in Development, Mid Life and Aging?
      • Does features correlation to thinning vary depending on life stage?
      • How is thinning in development correlated to thinning in aging?
