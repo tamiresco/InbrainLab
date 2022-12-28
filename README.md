@@ -25,6 +25,14 @@ Variable roles in cortical thinning (ShapValues):
      
 ### 3) Cortex Visualization 
 
+Plots:
+• How much is thinning in the cortex?
+• How does our model perform in the cortex?
+• How thick is Layer I in the cortex?
+• How thick is Layer IV in the cortex?
+• Which cortical structure thins the most in life?
+• How is an Atlas segmented?
+
 ### 4) Feature Analyses
 
 Basic analysis of the variables relation to the annual thining rate:
