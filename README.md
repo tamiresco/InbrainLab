@@ -38,7 +38,7 @@ Variable roles in cortical thinning (ShapValues):
 
 Basic analysis of the variables relation to the annual thining rate:
 • What are the features correlation to each other?  
-• All the features are important to predict annual thining rate? (Boruta) 
+• All the features are important to predict annual thining rate (Boruta)? 
 
 Thinning segmented by Life Stages:
 • Is thinning different in Development, Mid Life and Aging?
