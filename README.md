@@ -38,7 +38,7 @@ Variable roles in cortical thinning (ShapValues):
 
 Basic analysis of the variables relation to the annual thining rate:
 • What are the features correlation to each other?  
-• Are all the features important to predict annual thining rate?   
+• Are all the features important to predict annual thining rate (Boruta)?   
 
 Thinning segmented by Life Stages:
 • Is thinning different in Development, Mid Life and Aging?
@@ -47,7 +47,7 @@ Thinning segmented by Life Stages:
 
 Development and Aging Thinning Difference exploration:
 • We found a high correlation with Layer 1 Percentage. How is the join distribution?
-• Lets segmentated the Development Aging DIfference in three groups (Neg, Neu, Posi). Layer 1 in each group show statistical significance (ANOVA, Kruskal)?
+• Lets segmentated the Development Aging DIfference in three groups. Layer 1 in each group show statistical significance (ANOVA, Kruskal)?
 • What are the Layer 1 stats for each group?
 
 ### 4) Cortex Visualization 
