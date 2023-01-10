@@ -150,23 +150,19 @@ def joinplot(df, temporal_threshold = [30,60], spatial_threshold = 0.35, x="bigb
     
 def find_intervals(df, x="bigbrain_layer_1", temporal_threshold = [30,60], spatial_threshold = 0.35):
     df_life_stages = _build_life_stages_df(df, temporal_threshold, spatial_threshold)
-    # prep
-    x1 = -spatial_threshold #[0.4;0.7]
-    x2 = spatial_threshold
-    g1 = df_life_stages[df_life_stages['Development Aging Difference']<x1]
-    g2 = df_life_stages[(df_life_stages['Development Aging Difference']>x1) & (df_life_stages['Development Aging Difference']<x2)]
-    g3 = df_life_stages[df_life_stages['Development Aging Difference']>x2]
-    # df
-    data = [[len(g1)*100/len(g1+g2+g3), len(g2)*100/len(g1+g2+g3), len(g3)*100/len(g1+g2+g3)],
-            [g1[x].mean(), g2[x].mean(), g3[x].mean()],
-            [g1[x].std(), g2[x].std(), g3[x].std()],
-            [stats.sem(g1[x]), stats.sem(g2[x]), stats.sem(g3[x])]]
-    df_groups = pd.DataFrame(data).T
-    df_groups.index= ['DifNeg','DifNeu','DifPosi']
-    df_groups.columns=['percentage',x+'_mean',x+'_std',x+'_sem']
-    #tests
+    #test
+    g1 = df_life_stages[df_life_stages['StructuresGroup'] =='DifNeg']
+    g2 = df_life_stages[df_life_stages['StructuresGroup'] =='DifNeu']
+    g3 = df_life_stages[df_life_stages['StructuresGroup'] =='DifPosi']
     pkruskal = stats.kruskal(g1[x],g2[x],g3[x])
     pf_oneway = stats.f_oneway(g1[x],g2[x],g3[x])
+    #df
+    data = [df_life_stages[['bigbrain_layer_1','StructuresGroup']].groupby('StructuresGroup').apply(lambda x: len(x)),
+            df_life_stages[['bigbrain_layer_1','StructuresGroup']].groupby('StructuresGroup').apply(lambda x: np.mean(x)).round(3),
+            pd.DataFrame(df_life_stages[['bigbrain_layer_1','StructuresGroup']].groupby('StructuresGroup').apply(lambda x: stats.sem(x)[0])).round(3),
+            df_life_stages[['bigbrain_layer_1','StructuresGroup']].groupby('StructuresGroup').apply(lambda x: np.std(x)).round(3)]
+    df_groups = pd.concat(data, axis=1)
+    df_groups.columns=['n_structures',x+'_mean',x+'_sem',x+'_std']
     return df_groups, pkruskal, pf_oneway
 
 
@@ -174,5 +170,5 @@ def violinplot(df, temporal_threshold = [30,60], spatial_threshold = 0.35, x="bi
     df_life_stages = _build_life_stages_df(df, temporal_threshold, spatial_threshold)
     # Discretization
     sns.violinplot(data=df_life_stages, x=x, y="StructuresGroup", palette='magma', scale='count', order=['DifPosi','DifNeu','DifNeg'])
-    sns.swarmplot(data=df_life_stages, x=x, y="StructuresGroup", alpha = 0.5, order=['DifPosi','DifNeu','DifNeg'])
+    #sns.swarmplot(data=df_life_stages, x=x, y="StructuresGroup", alpha = 0.5, order=['DifPosi','DifNeu','DifNeg'])
     plt.show()
