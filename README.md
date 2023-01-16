@@ -22,6 +22,7 @@ Plots:
 •  What is the difference in thinning by lobules?
 •  Which structure gets thicker with aging?
 
+
 ### 2) Thinning Modelling 
 
 Multi Modelling:
@@ -34,7 +35,20 @@ Variable roles in cortical thinning (ShapValues):
 • Does the variables interact with each other on the model?
 • How each variable contribute to the model?
 
-### 3) Feature Analyses
+
+### 3) Cortex Visualization 
+
+Plots:
+• How much is thinning in the cortex?
+• How does our model perform in the cortex?
+• Which cortical structure thins the most in life?
+• How thick is Layer I in the cortex?
+• How thick is Layer IV in the cortex?
+• Which cortical structure thins the most in life?
+• How is an Atlas segmented?
+
+
+### 4) Feature Analyses
 
 Basic analysis of the variables relation to the annual thining rate:
 • What are the features correlation to each other?  
@@ -49,15 +63,4 @@ Development and Aging Thinning Difference exploration:
 • We found a high correlation with Layer 1 Percentage. How is the join distribution?
 • Lets segmentated the Development Aging DIfference in three groups. Layer 1 in each group show statistical significance (ANOVA, Kruskal)?
 • What are the Layer 1 stats for each group?
-
-### 4) Cortex Visualization 
-
-Plots:
-• How much is thinning in the cortex?
-• How does our model perform in the cortex?
-• Which cortical structure thins the most in life?
-• How thick is Layer I in the cortex?
-• How thick is Layer IV in the cortex?
-• Which cortical structure thins the most in life?
-• How is an Atlas segmented?
 

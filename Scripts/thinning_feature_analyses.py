@@ -136,15 +136,19 @@ def differenceplot(df, temporal_threshold = [30,60], spatial_threshold = 0.35, x
     plt.grid(alpha = 0.2, linestyle='--', which='both')
     plt.title('Development and Aging Annual Thinning Rates sorted by its Difference')
     plt.xticks(rotation = 45, horizontalalignment = 'right') 
+    plt.ylabel("Average thinning rates")
     plt.show()
     
 
 def joinplot(df, temporal_threshold = [30,60], spatial_threshold = 0.35, x="bigbrain_layer_1"):
     df_life_stages = _build_life_stages_df(df, temporal_threshold, spatial_threshold)
-    # Continuous variable
-    sns.jointplot(data=df_life_stages, x=x, y='Development Aging Difference', kind="reg",color='#280069')
-    corr = np.corrcoef(df_life_stages[x], df_life_stages['Development Aging Difference'])[0, 1]
-    plt.title("Correlation Percentage Layer I and Development Aging Difference = "+ str(np.round(corr,3)), pad=80)
+    y='Development Aging Difference'
+    corr, p_value = stats.pearsonr(df_life_stages[x], df_life_stages[y])
+    r_square = round(corr**2,3)
+    g = sns.jointplot(data=df_life_stages, x=x, y=y, kind='reg', color='#280069')
+    plt.annotate(f'r = {corr:.3f}', xy=(0.8, 0.95), xycoords='axes fraction', fontsize=12,
+                bbox=dict(boxstyle='round,pad=0.3', fc='white', alpha=0.5))
+    plt.xlabel('Layer I Percentage')
     plt.show()
     
     
@@ -171,4 +175,5 @@ def violinplot(df, temporal_threshold = [30,60], spatial_threshold = 0.35, x="bi
     # Discretization
     sns.violinplot(data=df_life_stages, x=x, y="StructuresGroup", palette='magma', scale='count', order=['DifPosi','DifNeu','DifNeg'])
     #sns.swarmplot(data=df_life_stages, x=x, y="StructuresGroup", alpha = 0.5, order=['DifPosi','DifNeu','DifNeg'])
+    plt.xlabel('Layer I Percentage')
     plt.show()

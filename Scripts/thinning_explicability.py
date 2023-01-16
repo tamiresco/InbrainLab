@@ -67,7 +67,7 @@ class ShapExplicability:
             Return:
                 all features contribution plot with interaction colorcoded by args feature.
         """
-        for i in range(12):
+        for i in range(len(self.features)):
             shap.plots.scatter(self.shap_complete[:, i], 
                                color=self.shap_complete[:,feature], dot_size=5, cmap=cmap, alpha =0.8)
 
