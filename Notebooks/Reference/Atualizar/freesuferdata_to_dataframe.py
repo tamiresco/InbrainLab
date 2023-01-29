@@ -115,20 +115,20 @@ class Sufer_Data:
     
     def __init__(   self,
                     freesurfer_data_folder = "/home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/",
-                    path_base_mri = "/home/brunovieira/Tamires_Experiments/Bases_de_Dados/"
+                    path_base_mri = "/home/brunovieira/Tamires_Experiments/Bases_de_Dados/",
                     path_example = "/home/brunovieira/Tamires_Experiments/Bases_de_Dados/nki_data/A00008326/"
                     ):
     
-    participants_list = os.listdir(freesurfer_data_folder)
-    participants_list = np.setdiff1d(participants_list, ['fsaverage'])
+        participants_list = os.listdir(freesurfer_data_folder)
+        participants_list = np.setdiff1d(participants_list, ['fsaverage'])
 
-    Data_Strutures, data, participants_list_completed_index, participants_list_completed, participants_list_incompleted = collector(participants_list, path_example)
-    
-    self.Data_Strutures = Data_Strutures
-    self.data = data
-    self.participants_list_completed_index = participants_list_completed_index
-    self.participants_list_completed = participants_list_completed
-    self.participants_list_incompleted = participants_list_incompleted
+        Data_Strutures, data, participants_list_completed_index, participants_list_completed, participants_list_incompleted = collector(participants_list, path_example)
+
+        self.Data_Strutures = Data_Strutures
+        self.data = data
+        self.participants_list_completed_index = participants_list_completed_index
+        self.participants_list_completed = participants_list_completed
+        self.participants_list_incompleted = participants_list_incompleted
 
     def save_files(self):
         self.Data_Strutures.to_parquet(self.path_base_mri + "MRI_Data_Strutures_" + str(round(len(self.Data_Strutures)/2)) + ".parquet")  
