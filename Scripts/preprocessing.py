@@ -1,144 +1,137 @@
+import os
+import shutil
 import numpy as np
 import pandas as pd
-import openpyxl
-import random
-from sklearn.preprocessing import OrdinalEncoder
+from nilearn import surface
 
-def read_parquet(mri_subs_path,
-                 features_int = ['atlasEcono','atlasDF'],
-                 features_objects = ['participant','structure','sex', 'handedness', 'hemisphere']
-                ):
-    mri_subs_all = pd.read_parquet(mri_subs_path)
-    features_float = list(set(mri_subs_all.columns) - set(features_int + features_objects))
-    mri_subs_all[features_int] = mri_subs_all[features_int].astype('int8')
-    mri_subs_all[features_float] = mri_subs_all[features_float].astype('float32')
-    return mri_subs_all
+def collector(participants_list, path_example):
+    """
+    Collects and processes data for a list of participants.
 
+    Parameters:
+    participants_list (list): List of participant IDs.
+    path_example (str): Example path to the data.
 
-def find_bad_ones(mri_areas_path, threshold_std = 4, threshold_risks = 5):
+    Returns:
+    list: A list containing:
+        - participants_list_completed_index (pd.DataFrame): DataFrame of completed participant indices.
+        - participants_list_completed (pd.DataFrame): DataFrame of completed participants.
+        - participants_list_incompleted (np.ndarray): Array of incomplete participants.
+        - df_vertices (pd.DataFrame): DataFrame of vertex data.
+        - df_strutures_BN (pd.DataFrame): DataFrame of structural data.
+    """
+    # participants
+    participants_list = os.listdir(freesurfer_data_folder)
+    participants_list = np.setdiff1d(participants_list, ['fsaverage'])
+
+    # data format
+    df_dict = {"participant":[],"hemisphere":[],"atlasEcono":[],"atlasBN":[],"atlasDKT":[], "area":[],"curv":[],"sulc":[],"thickness":[]}
+    df_dict_ = {"atlasEcono":[],"atlasBN":[],"atlasDKT":[], "area":[],"curv":[],"sulc":[],"thickness":[]}
+    df_atlasBN = {}
+    participants_list_incompleted = []
+
+    for i, participant in enumerate(participants_list):
+        print(i)
+        for hemisphere in ['lh', 'rh']:
+
+            # paths
+            atlasEcono = ["/label/"+str(hemisphere)+".Eco.annot", 'atlasEcono']
+            atlasBN = ["/label/"+str(hemisphere)+".BN_Atlas.annot", 'atlasBN']
+            atlasDKT = ["/label/"+str(hemisphere)+".aparc.DKTatlas.annot", 'atlasDKT']
+            area = ["/surf/"+str(hemisphere)+".area", 'area']
+            curv = ["/surf/"+str(hemisphere)+".curv", 'curv']
+            sulc = ["/surf/"+str(hemisphere)+".sulc", 'sulc']
+            thickness = ["/surf/"+str(hemisphere)+".thickness", 'thickness']
+            features = [atlasEcono, atlasBN, atlasDKT, area, curv, sulc, thickness]
+
+            try:
+                # vertice data
+                for [feature, f] in features:
+                    data = surface.load_surf_data(freesurfer_data_folder + participant + feature)
+                    df_dict[f].extend(data)
+                    df_dict_[f].extend(data)
+                df_dict['participant'].extend([participant] * len(data))
+                df_dict['hemisphere'].extend([hemisphere] * len(data))
+
+                # strutural data
+                df_atlasBN_ = pd.DataFrame(df_dict_).groupby(by='atlasBN').mean().drop(columns=['atlasEcono', 'atlasDKT'])
+                df_atlasBN_['participant'] = [participant] * len(df_atlasBN_)
+                df_atlasBN_['hemisphere'] = [hemisphere] * len(df_atlasBN_)
+                df_atlasBN[participant+hemisphere] = df_atlasBN_
+                df_dict_ = {"atlasEcono":[],"atlasBN":[],"atlasDKT":[], "area":[],"curv":[],"sulc":[],"thickness":[]}
+
+            # participants incompleted
+            except:
+                participants_list_incompleted.append(participant) 
+                
+    # to dataframes            
+    df_strutures_BN = pd.concat(df_atlasBN).droplevel(level=0).reset_index()
+    df_vertices = pd.DataFrame(df_dict)
     
-    mri_areas = pd.read_csv(mri_areas_path)
-    mri_areas = mri_areas.rename(columns={'Unnamed: 0':'participant'})
-    mri_areas.participant = [x[:-2] for x in mri_areas.participant]
-
-    mri_areas_std = mri_areas.copy()
-    for col in mri_areas.columns[2:]:
-        mean = np.mean(mri_areas[col])
-        std = np.std(mri_areas[col])
-        lower = mean - threshold_std*std
-        upper = mean + threshold_std*std
-        mri_areas_std[col] = [1 if x < lower or x > upper else 0 for x in mri_areas[col]]
-
-    mri_areas_std['sum_risks'] = mri_areas_std.sum(axis=1)
-    mri_areas_std = mri_areas_std[['sum_risks'] + list(mri_areas_std.columns[:-1])]
-    mri_areas_std[mri_areas_std.sum_risks>0].sort_values(by=['sum_risks'],ascending=False)
+    # participants
+    participants_list_incompleted = np.unique(participants_list_incompleted)
+    participants_list_comp = [[i, sub] for i, sub in enumerate(participants_list) if sub not in participants_list_incompleted]
+    participants_list_completed_index = pd.DataFrame(participants_list_comp)[0]
+    participants_list_completed = pd.DataFrame(participants_list_comp)[1]
     
-    bad_participants = mri_areas_std.participant[mri_areas_std.sum_risks>threshold_risks].unique()
-    return bad_participants
-
-
-def eliminate_bad_ones(bad_participant, mri_subs):
-    mri_subs = mri_subs[~mri_subs.participant.isin(bad_participant)]
-    return mri_subs
-
-
-def cat2int(mri_subs, cat_features):
-    '''
-    encode categoricals features
-    '''
-    enc = OrdinalEncoder()
-    mri_subs[cat_features] = enc.fit_transform(mri_subs[cat_features])
-    mri_subs[cat_features] = mri_subs[cat_features].astype('int8')
-    return mri_subs
-
-
-def ids_features(ids_path, mri_subs, cat_features = ['sex', 'handedness', 'hemisphere']):
-    nkienhanced_infos = pd.read_csv(ids_path, sep='\t', header=0)
-    nkienhanced_infos = nkienhanced_infos.rename(columns={'participant_id': "participant"})
-    nkienhanced_infos.set_index('participant',inplace=True) 
-    mri_subs = mri_subs.merge(nkienhanced_infos, left_on='participant', right_on='participant')
-    mri_subs = cat2int(mri_subs, cat_features)
-    mri_subs['age'] = mri_subs['age'].astype('int8')
-    return mri_subs
-
-
-def bb_normalizing(bb_path):
-    
-    bb = pd.read_excel(bb_path,engine='openpyxl')
-    bb = bb.rename(columns={'Unnamed: 0': 'atlasEcono', 'area_name':'structure'})
-    
-    bb["bb_sum"] =bb[["bigbrain_layer_1","bigbrain_layer_2","bigbrain_layer_3","bigbrain_layer_4","bigbrain_layer_5","bigbrain_layer_6"]].agg(['sum'], axis =1)
-    bb["ve_sum"] =bb[["ve_1","ve_2","ve_3","ve_4","ve_5","ve_6"]].agg(['sum'], axis =1)
-
-    bb['ve_1'] = bb.apply(lambda x: x.ve_1/x.ve_sum, axis=1)
-    bb['ve_2'] = bb.apply(lambda x: x.ve_2/x.ve_sum, axis=1)
-    bb['ve_3'] = bb.apply(lambda x: x.ve_3/x.ve_sum, axis=1)
-    bb['ve_4'] = bb.apply(lambda x: x.ve_4/x.ve_sum, axis=1)
-    bb['ve_5'] = bb.apply(lambda x: x.ve_5/x.ve_sum, axis=1)
-    bb['ve_6'] = bb.apply(lambda x: x.ve_6/x.ve_sum, axis=1)
-
-    bb['bigbrain_layer_1'] = bb.apply(lambda x: x.bigbrain_layer_1/x.bb_sum, axis=1)
-    bb['bigbrain_layer_2'] = bb.apply(lambda x: x.bigbrain_layer_2/x.bb_sum, axis=1)
-    bb['bigbrain_layer_3'] = bb.apply(lambda x: x.bigbrain_layer_3/x.bb_sum, axis=1)
-    bb['bigbrain_layer_4'] = bb.apply(lambda x: x.bigbrain_layer_4/x.bb_sum, axis=1)
-    bb['bigbrain_layer_5'] = bb.apply(lambda x: x.bigbrain_layer_5/x.bb_sum, axis=1)
-    bb['bigbrain_layer_6'] = bb.apply(lambda x: x.bigbrain_layer_6/x.bb_sum, axis=1)
-
-    bb.drop(columns = ['crown_min','bigbrain','ve_sum','bb_sum','area'], inplace=True)
-
-    missing_data = pd.DataFrame([[1, 'corpuscallosum'],[14, 'FLMN'],[15, 'HA'],[16, 'HB'],[17, 'HC'],[26, 'LE']],
-                                columns=['atlasEcono', 'structure'])
-    bb = pd.concat([bb,missing_data])
-    bb.sort_values(by=['atlasEcono'], inplace = True)
-    bb.set_index('atlasEcono', inplace=True)
-    bb = bb.dropna()
-    bb[bb.select_dtypes(include ='float64').columns] = bb.select_dtypes(include ='float64').astype('float32')
-    return bb
-  
-    
-def bb_rounding(bb):
-    bb_rounded = bb[["bigbrain_layer_1","bigbrain_layer_2","bigbrain_layer_3","bigbrain_layer_4","bigbrain_layer_5","bigbrain_layer_6"]]
-    bb_rounded = bb_rounded.applymap(lambda x: np.round(x,2))
-    bb_rounded.columns = ["bigbrain_layer_1_r","bigbrain_layer_2_r","bigbrain_layer_3_r","bigbrain_layer_4_r","bigbrain_layer_5_r","bigbrain_layer_6_r"]
-    bb = pd.concat([bb,bb_rounded], axis=1)
-    bb[bb.select_dtypes(include ='float64').columns] = bb.select_dtypes(include ='float64').astype('float32')
-    return bb
-  
-
-def bb_multipling_age(dataframe_with_bb):
-    try:
-        layers_data = ['bigbrain_layer_1','bigbrain_layer_2','bigbrain_layer_3','bigbrain_layer_4','bigbrain_layer_5','bigbrain_layer_6']
-        for i, ld in enumerate(layers_data):
-            dataframe_with_bb["bblayer" + str(i+1) + "_age"] = dataframe_with_bb.age * dataframe_with_bb[ld]
-        layers_data2 = ['ve_1', 've_2', 've_3', 've_4', 've_5', 've_6']
-        for i, ld in enumerate(layers_data2):
-            dataframe_with_bb["ve" + str(i+1) + "_age"] = dataframe_with_bb.age * dataframe_with_bb[ld]
-        dataframe_with_bb[dataframe_with_bb.select_dtypes(include ='float64').columns] = dataframe_with_bb.select_dtypes(include ='float64').astype('float32')
-        return dataframe_with_bb
-    except:
-        return print("error: Falta adicionar variavel idade na base.")
+    # all info
+    all_info = [participants_list_completed_index, 
+                participants_list_completed, 
+                participants_list_incompleted,
+                df_vertices, df_strutures_BN] 
+    return all_info
     
     
-def bb_features(bb_path, mri_subs):
-    bb = bb_normalizing(bb_path)
-    bb = bb_rounding(bb)
-    mri_subs = mri_subs.join(bb, on="atlasEcono")
-    mri_subs = bb_multipling_age(mri_subs)
-    return mri_subs
+class SuferData:
+    """
+    A class to handle and process Freesurfer data.
 
+    Attributes:
+    freesurfer_data_folder (str): Path to the Freesurfer data folder.
+    path_base_mri (str): Base path for MRI data.
+    path_example (str): Example path to the data.
+    participants_list_completed_index (pd.DataFrame): DataFrame of completed participant indices.
+    participants_list_completed (pd.DataFrame): DataFrame of completed participants.
+    participants_list_incompleted (np.ndarray): Array of incomplete participants.
+    df_vertices (pd.DataFrame): DataFrame of vertex data.
+    df_strutures_BN (pd.DataFrame): DataFrame of structural data.
+    """
 
-def clean_sample(mri_subs_all, sample_size):
-    '''Criando sub amostra com N participantes and drop zeros thickness
-    '''
-    participants_list = mri_subs_all.participant.unique()
-    participants_sample = random.sample(list(participants_list), sample_size)
-    mri_subs = mri_subs_all[mri_subs_all.participant.isin(participants_sample)]
-    mri_subs = mri_subs[mri_subs['thickness'].astype(bool)]
-    return mri_subs
+    def __init__(self,
+                 freesurfer_data_folder = "/home/brunovieira/Tamires_Experiments/Data/Nki_data/",
+                 path_base_mri = "/home/brunovieira/Tamires_Experiments/Data/",
+                 path_example = "/home/brunovieira/Tamires_Experiments/Data/Nki_data/A00008326/"
+                    ):
+        """
+        Initializes the SuferData class with the given paths and processes the data.
 
-def clean(mri_subs_all):
-    '''drop zeros thickness
-    '''
-    mri_subs = mri_subs_all[mri_subs_all['thickness'].astype(bool)]
-    return mri_subs
+        Parameters:
+        freesurfer_data_folder (str): Path to the Freesurfer data folder.
+        path_base_mri (str): Base path for MRI data.
+        path_example (str): Example path to the data.
+        """
+        participants_list = os.listdir(freesurfer_data_folder)
+        participants_list = np.setdiff1d(participants_list, ['fsaverage'])
 
+        all_info = collector(participants_list, path_example) 
+        self.participants_list_completed_index = all_info[0]
+        self.participants_list_completed = all_info[1]
+        self.participants_list_incompleted = all_info[2]
+        self.df_vertices = all_info[3] 
+        self.df_strutures_BN = all_info[4]
+
+        
+    def save_files(self):
+        """
+        Saves the processed data to parquet files.
+        """
+        self.df_strutures_BN.to_parquet(self.path_base_mri +"/Brainnetome/data_894_BN.parquet")
+        self.df_vertices.to_parquet(self.path_base_mri + "MRI_Data_Vertices_" + str(len(self.df_vertices.participant.unique())) + ".parquet")
+
+        
+    def monitor(self):
+        """
+        Prints the number of completed and incomplete participants.
+        """
+        print('Completed: '+str(len(self.participants_list_completed)))
+        print('Incompleted: '+str(len(self.participants_list_incompleted)))
