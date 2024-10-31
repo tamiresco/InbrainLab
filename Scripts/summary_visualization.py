@@ -4,8 +4,29 @@ import numpy as np
 from nilearn import plotting, datasets, surface  
 
 class SummaryVisualization:
-    
+    """
+    A class to visualize summary data on brain surfaces.
+
+    Attributes:
+    fsaverage_mesh_right (str): Path to the right hemisphere mesh file.
+    fsaverage_sulc_right (str): Path to the right hemisphere sulcus file.
+    fsaverage_annot_right (str): Path to the right hemisphere annotation file.
+    fsaverage_mesh_left (str): Path to the left hemisphere mesh file.
+    fsaverage_sulc_left (str): Path to the left hemisphere sulcus file.
+    fsaverage_annot_left (str): Path to the left hemisphere annotation file.
+    economo_summary_path (str): Path to the economo summary CSV file.
+    rh_summary_fsaverage (pd.DataFrame): DataFrame containing right hemisphere summary data.
+    lh_summary_fsaverage (pd.DataFrame): DataFrame containing left hemisphere summary data.
+    description (pd.Index): Column names of the summary DataFrame.
+    """
+
     def __init__(self, paths):
+        """
+        Initializes the SummaryVisualization class with the given paths.
+
+        Parameters:
+        paths (dict): Dictionary containing paths to the necessary files.
+        """
         self.fsaverage_mesh_right = paths['fsaverage_mesh_right']
         self.fsaverage_sulc_right = paths['fsaverage_sulc_right']
         self.fsaverage_annot_right = paths['fsaverage_annot_right']
@@ -27,7 +48,15 @@ class SummaryVisualization:
         self.description = self.rh_summary_fsaverage.columns 
 
 
-    def plot_cortex(self, column, cmap,  threshold = False):
+    def plot_cortex(self, column, cmap, threshold = False):
+        """
+        Plots the histogram and surface map of a specified column.
+
+        Parameters:
+        column (str): Column name to be plotted.
+        cmap (str): Colormap to be used for plotting.
+        threshold (bool): Whether to apply a threshold to the plot.
+        """
         plt.hist(self.lh_summary_fsaverage[[column]], bins=40, color = '#582c9d')
         plt.title("Histogram of "+column+" in left hemisphere")
         plt.show()
@@ -52,7 +81,7 @@ class SummaryVisualization:
                                               bg_map = self.fsaverage_sulc_right,
                                               hemi = 'right', 
                                               view = view,
-                                              title = column +' | '+view +' view of left hemisphere ',
+                                              title = column +' | '+view +' view of right hemisphere ',
                                               colorbar = True,
                                               cmap = cmap,
                                               threshold=threshold,
@@ -63,6 +92,12 @@ class SummaryVisualization:
 
 
     def plot_atlas_all(self, cmap = 'Purples'):
+        """
+        Plots all atlas structures on the left hemisphere.
+
+        Parameters:
+        cmap (str): Colormap to be used for plotting.
+        """
         dummies_left = pd.get_dummies(self.lh_summary_fsaverage.atlas)
         for col in dummies_left.columns:
             name = str(np.array(self.lh_summary_fsaverage[self.lh_summary_fsaverage.atlas == col].structure_name.head(1))[0])
@@ -81,6 +116,13 @@ class SummaryVisualization:
                 
                 
     def plot_atlas(self, n_structure, cmap = 'Purples'):
+        """
+        Plots a specific atlas structure on the left hemisphere.
+
+        Parameters:
+        n_structure (int): Atlas structure number to be plotted.
+        cmap (str): Colormap to be used for plotting.
+        """
         dummies_left = pd.get_dummies(self.lh_summary_fsaverage.atlas)
         name = str(np.array(self.lh_summary_fsaverage[self.lh_summary_fsaverage.atlas == n_structure].structure_name.head(1))[0])
         for view in ['lateral','medial','dorsal','ventral']:
