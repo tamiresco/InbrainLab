@@ -4,10 +4,23 @@ import numpy as np
 import pandas as pd
 from nilearn import surface
 
+def collector(participants_list, path_example):
+    """
+    Collects and processes data for a list of participants.
 
-def collector(participants_list, path_example):    
-   
-   # participants
+    Parameters:
+    participants_list (list): List of participant IDs.
+    path_example (str): Example path to the data.
+
+    Returns:
+    list: A list containing:
+        - participants_list_completed_index (pd.DataFrame): DataFrame of completed participant indices.
+        - participants_list_completed (pd.DataFrame): DataFrame of completed participants.
+        - participants_list_incompleted (np.ndarray): Array of incomplete participants.
+        - df_vertices (pd.DataFrame): DataFrame of vertex data.
+        - df_strutures_BN (pd.DataFrame): DataFrame of structural data.
+    """
+    # participants
     participants_list = os.listdir(freesurfer_data_folder)
     participants_list = np.setdiff1d(participants_list, ['fsaverage'])
 
@@ -70,13 +83,33 @@ def collector(participants_list, path_example):
     
     
 class SuferData:
-    
+    """
+    A class to handle and process Freesurfer data.
+
+    Attributes:
+    freesurfer_data_folder (str): Path to the Freesurfer data folder.
+    path_base_mri (str): Base path for MRI data.
+    path_example (str): Example path to the data.
+    participants_list_completed_index (pd.DataFrame): DataFrame of completed participant indices.
+    participants_list_completed (pd.DataFrame): DataFrame of completed participants.
+    participants_list_incompleted (np.ndarray): Array of incomplete participants.
+    df_vertices (pd.DataFrame): DataFrame of vertex data.
+    df_strutures_BN (pd.DataFrame): DataFrame of structural data.
+    """
+
     def __init__(self,
                  freesurfer_data_folder = "/home/brunovieira/Tamires_Experiments/Data/Nki_data/",
                  path_base_mri = "/home/brunovieira/Tamires_Experiments/Data/",
                  path_example = "/home/brunovieira/Tamires_Experiments/Data/Nki_data/A00008326/"
                     ):
-    
+        """
+        Initializes the SuferData class with the given paths and processes the data.
+
+        Parameters:
+        freesurfer_data_folder (str): Path to the Freesurfer data folder.
+        path_base_mri (str): Base path for MRI data.
+        path_example (str): Example path to the data.
+        """
         participants_list = os.listdir(freesurfer_data_folder)
         participants_list = np.setdiff1d(participants_list, ['fsaverage'])
 
@@ -89,10 +122,16 @@ class SuferData:
 
         
     def save_files(self):
+        """
+        Saves the processed data to parquet files.
+        """
         self.df_strutures_BN.to_parquet(self.path_base_mri +"/Brainnetome/data_894_BN.parquet")
         self.df_vertices.to_parquet(self.path_base_mri + "MRI_Data_Vertices_" + str(len(self.df_vertices.participant.unique())) + ".parquet")
 
         
     def monitor(self):
+        """
+        Prints the number of completed and incomplete participants.
+        """
         print('Completed: '+str(len(self.participants_list_completed)))
         print('Incompleted: '+str(len(self.participants_list_incompleted)))
